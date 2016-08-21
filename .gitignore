@@ -1,6 +1,11 @@
-/vendor
-/node_modules
-/public/storage
-Homestead.yaml
-Homestead.json
-.env
+
+
+{
+'name': 'laravel',
+'version':'0.0.1',
+'author':'bashork',
+'repository':{
+'type' = 'git',
+url:'https://github.com/bashork/laravel.git'
+}
+}
