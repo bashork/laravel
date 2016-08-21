@@ -12,10 +12,6 @@
  Route is an object, get is a method of lavarel. It accepts 2 parameters - 1st is url and 2nd is a function when url is requested
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/milkshakes', function () {
-    return ("it's a milkshake");
-});
+Route::get('/about','PagesController@getAbout' );
+Route::get('/','PagesController@getIndex' );
+Route::get('/contact','PagesController@getContact');
