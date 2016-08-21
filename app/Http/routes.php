@@ -13,15 +13,9 @@
 */
 
 Route::get('/', function () {
-    return ('you have arrived.');
+    return view('welcome');
 });
 
 Route::get('/milkshakes', function () {
     return ("it's a milkshake");
-});
-Route::get('/contact', function (){
-    View::make('about');
-});
-Route::get('/about', function (){
-    View::make('about');
 });
